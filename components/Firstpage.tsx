@@ -6,9 +6,9 @@ function Firstpage() {
     <div>
       {/* little discount section */}
 
-      <div className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 absolute flex items-center justify-center top-[150px] left-[50px] w-[560px] h-[70px] sm:w-[90%] sm:h-[70px] sm:top-[140px] sm:left-[120px] md:w-[560px] lg:h-[50px] xl:h-[40px] rounded-[10px] hover:scale-125 duration-700">
-        <div className=" h-[50px] w-[50px] sm:w-[32px] sm:h-[32px]">
-          <Image
+      <div className="bg-gradient-to-b  from-gray-900 via-gray-800 to-gray-900 absolute flex items-center justify-center top-[150px] left-[50px] w-[560px] h-[70px] sm:w-[90%] sm:h-[70px] sm:top-[140px] sm:left-[120px] md:w-[560px] lg:h-[50px] xl:h-[40px] rounded-[10px] hover:scale-125 duration-700">
+        <div className=" h-[50px]  w-[50px] sm:w-[32px] sm:h-[32px]">
+          <Image 
             src="/../public/assets/Icons/Discount.png"
             alt="logo"
             width={82}
@@ -52,79 +52,79 @@ function Firstpage() {
 
       {/* Hand section */}
       <div className="hidden lg:block">
-          {/* hand image */}
-      <div className="hidden lg:block absolute top-[280px] right-[1px]">
-        <Image
-          src="/../public/assets/images/hand.png"
-          alt="logo"
-          width={869}
-          height={544}
-        />
-      </div>
+        {/* hand image */}
+        <div className="absolute top-[280px] right-[1px]">
+          <Image
+            src="/../public/assets/images/hand.png"
+            alt="logo"
+            width={869}
+            height={544}
+          />
+        </div>
 
-      {/* card 3 */}
+        {/* card 3 */}
 
-      <div className="absolute top-[349px] animate-pulse right-[300px]">
-        <Image
-          src="/../public/assets/images/card3.png"
-          alt="logo"
-          width={378}
-          height={584}
-        />
-      </div>
+        <div className="absolute top-[349px] animate-pulse right-[300px]">
+          <Image
+            src="/../public/assets/images/card3.png"
+            alt="logo"
+            width={378}
+            height={584}
+          />
+        </div>
 
-      {/* card 2 */}
+        {/* card 2 */}
 
-      <div className="absolute animate-bounce top-[220px] right-[250px]">
-        <Image
-          src="/../public/assets/images/card2.png"
-          alt="logo"
-          width={478}
-          height={684}
-        />
-      </div>
+        <div className="absolute animate-bounce top-[220px] right-[250px]">
+          <Image
+            src="/../public/assets/images/card2.png"
+            alt="logo"
+            width={478}
+            height={684}
+          />
+        </div>
 
-      {/* card 1 */}
+        {/* card 1 */}
 
-      <div className="absolute animate-bounce top-[160px] right-[250px]">
-        <Image
-          src="/../public/assets/images/card1.png"
-          alt="logo"
-          width={478}
-          height={684}
-        />
-      </div>
+        <div className="absolute animate-bounce top-[160px] right-[250px]">
+          <Image
+            src="/../public/assets/images/card1.png"
+            alt="logo"
+            width={478}
+            height={684}
+          />
+        </div>
 
-      {/* big circle */}
+        {/* big circle */}
 
-      <div className="absolute animate-spin top-[160px] right-[750px]">
-        <Image
-          src="/../public/assets/images/vector.png"
-          alt="logo"
-          width={101}
-          height={101}
-        />
-      </div>
+        <div className="absolute animate-spin top-[160px] right-[750px]">
+          <Image
+            src="/../public/assets/images/vector.png"
+            alt="logo"
+            width={101}
+            height={101}
+          />
+        </div>
 
-      {/* middle circle */}
-      <div className="absolute animate-spin top-[490px] right-[250px]">
-        <Image
-          src="/../public/assets/images/vector.png"
-          alt="logo"
-          width={68}
-          height={68}
-        />
-      </div>
+        {/* middle circle */}
+        <div className="absolute animate-spin top-[490px] right-[250px]">
+          <Image
+            src="/../public/assets/images/vector.png"
+            alt="logo"
+            width={68}
+            height={68}
+          />
+        </div>
 
-      {/* little circle */}
-      <div className="absolute animate-spin top-[590px] right-[710px]">
-        <Image
-          src="/../public/assets/images/vector.png"
-          alt="logo"
-          width={32}
-          height={32}
-        />
-      </div>
+        {/* little circle */}
+        <div className="absolute animate-spin top-[590px] right-[710px]">
+          <Image
+            src="/../public/assets/images/vector.png"
+            alt="logo"
+            width={32}
+            height={32}
+          />
+        </div>
       </div>
 
       {/* footer section */}

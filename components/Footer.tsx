@@ -7,7 +7,7 @@ import { FaInstagram,FaFacebook,FaTwitter,FaLinkedin} from 'react-icons/fa';
 function Footer() {
   return (
     <main>
-      <div className="bg-[#0B0A0C] hidden lg:block absolute top-[4550px] w-screen h-[418px] ">
+      <div className="bg-[#0B0A0C] hidden lg:block absolute top-[4550px] w-[1900px]">
         <div className="grid grid-cols-5 justify-between mt-16 ml-40 w-[1500px]">
           {/* logo section */}
           <div className="col-span-2">
@@ -82,7 +82,7 @@ function Footer() {
           </div>
 
           {/* border */}
-          <div className="myborder mt-16 w-[1400px] " />
+          <div className=" myborder mt-16 w-[1400px] " />
 
           {/* Last part    */}
 
