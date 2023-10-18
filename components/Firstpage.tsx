@@ -99,7 +99,7 @@ function Firstpage() {
 
         <div className="absolute animate-spin top-[160px] right-[750px]">
           <Image
-            src="/assets/images/vector.png"
+            src="/assets/images/Vector.png"
             alt="logo"
             width={101}
             height={101}
@@ -109,7 +109,7 @@ function Firstpage() {
         {/* middle circle */}
         <div className="absolute animate-spin top-[490px] right-[250px]">
           <Image
-            src="/assets/images/vector.png"
+            src="/assets/images/Vector.png"
             alt="logo"
             width={68}
             height={68}
@@ -119,7 +119,7 @@ function Firstpage() {
         {/* little circle */}
         <div className="absolute animate-spin top-[590px] right-[710px]">
           <Image
-            src="/assets/images/vector.png"
+            src="/assets/images/Vector.png"
             alt="logo"
             width={32}
             height={32}
