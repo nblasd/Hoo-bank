@@ -8,8 +8,8 @@ function Firstpage() {
 
       <div className="bg-gradient-to-b  from-gray-900 via-gray-800 to-gray-900 absolute flex items-center justify-center top-[150px] left-[50px] w-[560px] h-[70px] sm:w-[90%] sm:h-[70px] sm:top-[140px] sm:left-[120px] md:w-[560px] lg:h-[50px] xl:h-[40px] rounded-[10px] hover:scale-125 duration-700">
         <div className=" h-[50px]  w-[50px] sm:w-[32px] sm:h-[32px]">
-          <Image 
-            src="/../public/assets/Icons/Discount.png"
+          <Image
+            src="/assets/Icons/Discount.png"
             alt="logo"
             width={82}
             height={23}
@@ -43,7 +43,7 @@ function Firstpage() {
       </div>
       <div className="absolute hidden md:block md:top-[300px] lg:top-[280px] 2xl:top-[300px] md:left-[550px] lg:left[580px] 2xl:left-[700px] cursor-pointer hover:scale-125 duration-700">
         <Image
-          src="/../public/assets/Icons/Getstarted.png"
+          src="/assets/Icons/Getstarted.png"
           alt="logo"
           width={140}
           height={140}
@@ -55,7 +55,7 @@ function Firstpage() {
         {/* hand image */}
         <div className="absolute top-[280px] right-[1px]">
           <Image
-            src="/../public/assets/images/hand.png"
+            src="/assets/images/hand.png"
             alt="logo"
             width={869}
             height={544}
@@ -66,7 +66,7 @@ function Firstpage() {
 
         <div className="absolute top-[349px] animate-pulse right-[300px]">
           <Image
-            src="/../public/assets/images/card3.png"
+            src="/assets/images/card3.png"
             alt="logo"
             width={378}
             height={584}
@@ -77,7 +77,7 @@ function Firstpage() {
 
         <div className="absolute animate-bounce top-[220px] right-[250px]">
           <Image
-            src="/../public/assets/images/card2.png"
+            src="/assets/images/card2.png"
             alt="logo"
             width={478}
             height={684}
@@ -88,7 +88,7 @@ function Firstpage() {
 
         <div className="absolute animate-bounce top-[160px] right-[250px]">
           <Image
-            src="/../public/assets/images/card1.png"
+            src="/assets/images/card1.png"
             alt="logo"
             width={478}
             height={684}
@@ -99,7 +99,7 @@ function Firstpage() {
 
         <div className="absolute animate-spin top-[160px] right-[750px]">
           <Image
-            src="/../public/assets/images/vector.png"
+            src="/assets/images/vector.png"
             alt="logo"
             width={101}
             height={101}
@@ -109,7 +109,7 @@ function Firstpage() {
         {/* middle circle */}
         <div className="absolute animate-spin top-[490px] right-[250px]">
           <Image
-            src="/../public/assets/images/vector.png"
+            src="/assets/images/vector.png"
             alt="logo"
             width={68}
             height={68}
@@ -119,7 +119,7 @@ function Firstpage() {
         {/* little circle */}
         <div className="absolute animate-spin top-[590px] right-[710px]">
           <Image
-            src="/../public/assets/images/vector.png"
+            src="/assets/images/vector.png"
             alt="logo"
             width={32}
             height={32}

@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { RiCopyrightLine } from "react-icons/ri";
-import { FaInstagram,FaFacebook,FaTwitter,FaLinkedin} from 'react-icons/fa';
-
+import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -12,7 +11,7 @@ function Footer() {
           {/* logo section */}
           <div className="col-span-2">
             <Image
-              src="/../public/assets/Logo/full-logo.png"
+              src="/assets/Logo/full-logo.png"
               alt="logo"
               width={266}
               height={72.14}
@@ -99,12 +98,20 @@ function Footer() {
             {/* React icons */}
 
             <div className="absolute flex justify-between items-center w-[200px] top-[1px] left-[1000px]">
-            
-            <div className="hover:scale-150 duration-700"><FaInstagram size={30} color="white"/></div>
-            <div className="hover:scale-150 duration-700"><FaFacebook size={30} color="white" /></div>
-            <div className="hover:scale-150 duration-700"> <FaTwitter size={30} color="white" /></div>
-           <div className="hover:scale-150 duration-700"> <FaLinkedin size={30} color="white" /></div>
-           
+              <div className="hover:scale-150 duration-700">
+                <FaInstagram size={30} color="white" />
+              </div>
+              <div className="hover:scale-150 duration-700">
+                <FaFacebook size={30} color="white" />
+              </div>
+              <div className="hover:scale-150 duration-700">
+                {" "}
+                <FaTwitter size={30} color="white" />
+              </div>
+              <div className="hover:scale-150 duration-700">
+                {" "}
+                <FaLinkedin size={30} color="white" />
+              </div>
             </div>
           </div>
         </div>

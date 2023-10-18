@@ -3,7 +3,7 @@ import React from "react";
 
 function Thirdpage() {
   return (
-    <main>
+    <main id="features">
       {/* Right side */}
       <div className="absolute top-[2850px] sm:top-[2700px] md:top-[1800px] lg:top-[1800px] left-[60px] md:left-[900px] lg:left-[1200px]">
         {/* Heading*/}
@@ -28,7 +28,7 @@ function Thirdpage() {
           {/* first img */}
           <Image
             className="hover:scale-125 duration-700"
-            src="/../public/assets/Icons/app store.png"
+            src="/assets/Icons/app store.png"
             alt="logo"
             width={128.86}
             height={42.05}
@@ -36,7 +36,7 @@ function Thirdpage() {
           {/* Second image */}
           <Image
             className="hover:scale-125 duration-700"
-            src="/../public/assets/Icons/google play.png"
+            src="/assets/Icons/google play.png"
             alt="logo"
             width={128.86}
             height={42.05}
@@ -51,7 +51,7 @@ function Thirdpage() {
 
         <div className="absolute top-[1900px] left-[100px]">
           <Image
-            src="/../public/assets/images/transaction.png"
+            src="/assets/images/transaction.png"
             alt="logo"
             width={335}
             height={280}
@@ -62,7 +62,7 @@ function Thirdpage() {
         <div className="absolute flex items-center top-[2157px] left-[341px] bg-white w-[324px] h-[54px] rounded-2xl hover:scale-125 duration-700">
           <div className="flex ml-5">
             <Image
-              src="/../public/assets/Icons/tick.png"
+              src="/assets/Icons/tick.png"
               alt="logo"
               width={24}
               height={24}
@@ -78,7 +78,7 @@ function Thirdpage() {
           <div className="flex w-[100%] mt-3">
             <Image
               className="ml-5"
-              src="/../public/assets/Icons/paypal.png"
+              src="/assets/Icons/paypal.png"
               alt="logo"
               width={66}
               height={56}
@@ -99,15 +99,15 @@ function Thirdpage() {
               Change
             </button>
           </div>
-             {/* button */}
-             <div className="mt-6 ml-4">
-          <button
-            className="bg-gradient-to-t from-[#33BBCF] via-[#7DE7EB] to-[#BEF3F5] hover:from-[#0088cc] hover:via-[#006699] hover:to-[#004466] hover:text-gray-300 duration-500 w-[187.97px] text-[35px] h-[33px]  rounded-md font-semibold text-base leading-6
+          {/* button */}
+          <div className="mt-6 ml-4">
+            <button
+              className="bg-gradient-to-t from-[#33BBCF] via-[#7DE7EB] to-[#BEF3F5] hover:from-[#0088cc] hover:via-[#006699] hover:to-[#004466] hover:text-gray-300 duration-500 w-[187.97px] text-[35px] h-[33px]  rounded-md font-semibold text-base leading-6
 "
-          >
-            Get Started
-          </button>
-        </div>
+            >
+              Get Started
+            </button>
+          </div>
         </div>
       </div>
     </main>

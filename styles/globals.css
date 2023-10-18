@@ -2,21 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-background-color: #090D17;
+  background-color: #090d17;
 }
 
 .mybg {
-    background: linear-gradient(113.08deg, #FFFFFF -242.51%, #14101D 89.01%);
-    box-shadow: inset -0.243217px -0.243217px 0.364826px rgba(0, 0, 0, 0.36);
-    backdrop-filter: blur(15.2011px);
+  background: linear-gradient(113.08deg, #ffffff -242.51%, #14101d 89.01%);
+  box-shadow: inset -0.243217px -0.243217px 0.364826px rgba(0, 0, 0, 0.36);
+  backdrop-filter: blur(15.2011px);
 }
 
 .mybg2 {
-    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
 }
 
 .myborder {
-    border: 1px solid #3F3E45;
+  border: 1px solid #3f3e45;
 }

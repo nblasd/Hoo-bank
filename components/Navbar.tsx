@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 
@@ -16,40 +16,40 @@ function Navbar() {
       <div className="h-32 md:h-16  w-[750px] md:w-[1500px] lg:w-[1800px] flex justify-between items-center px-24">
         {/* left side */}
         <div className="cursor-pointer scale-150 h-full flex items-center">
-          <Link href="/">
+          <a href="/">
             <Image
-              src="/../public/assets/Logo/full-logo.png"
+              src="/assets/Logo/full-logo.png"
               alt="logo"
               width={120}
               height={120}
             />
-          </Link>
+          </a>
         </div>
 
         {/* Right side */}
 
         <div className="hidden md:flex items-center h-full">
           <ul className="flex font-semibold">
-            <Link href="/">
+            <a href="/">
               <li className="text-slate-300 px-5 cursor-pointer hover:text-white">
                 Home
               </li>
-            </Link>
-            <Link href="/about">
+            </a>
+            <a href="/">
               <li className="text-slate-300 px-5 cursor-pointer hover:text-white">
                 About Us
               </li>
-            </Link>
-            <Link href="/features">
+            </a>
+            <a href="/">
               <li className="text-slate-300 px-5 cursor-pointer hover:text-white">
                 Features
               </li>
-            </Link>
-            <Link href="/solution">
+            </a>
+            <a href="/solution">
               <li className="text-slate-300 px-5 cursor-pointer hover:text-white">
                 Solution
               </li>
-            </Link>
+            </a>
           </ul>
         </div>
 
@@ -84,26 +84,26 @@ function Navbar() {
           }
         >
           <ul className="flex flex-col  font-semibold">
-            <Link href="/">
+            <a href="/">
               <li className="text-slate-300 text-6xl my-20 px-5 cursor-pointer hover:text-white">
                 Home
               </li>
-            </Link>
-            <Link href="/about">
+            </a>
+            <a href="/about">
               <li className="text-slate-300 text-6xl px-5 my-20 cursor-pointer hover:text-white">
                 About Us
               </li>
-            </Link>
-            <Link href="/features">
+            </a>
+            <a href="/features">
               <li className="text-slate-300 text-6xl px-5 my-20 cursor-pointer hover:text-white">
                 Features
               </li>
-            </Link>
-            <Link href="/solution">
+            </a>
+            <a href="/solution">
               <li className="text-slate-300 text-6xl px-5 my-20 cursor-pointer hover:text-white">
                 Solution
               </li>
-            </Link>
+            </a>
           </ul>
         </div>
       </div>

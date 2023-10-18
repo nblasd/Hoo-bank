@@ -36,9 +36,8 @@ function Fourpage() {
 
       {/* Right section */}
       <div className=" hidden md:block absolute top-[2400px] md:left-[900px] lg:left-[1200px] md:w-[519px] lg:w-[619px] md:h-[449px] lg:h-[549px] ">
-      
         <Image
-          src="/../public/assets/images/whole thing.png"
+          src="/assets/images/whole thing.png"
           alt="logo"
           width={513}
           height={449}

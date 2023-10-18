@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Fifthpage() {
   return (
-    <main>
+    <main id="about">
       {/* upper part */}
 
       <div className="absolute flex flex-col md:flex-row justify-between w-[600px] md:w-[1370px] lg:w-[1700px] top-[4400px] sm:top-[4300px] md:top-[3000px] left-[50px] md:left-[50px] lg:left-[100px]">
@@ -35,7 +35,7 @@ function Fifthpage() {
           <div className="ml-3">
             <Image
               className="ml-5"
-              src="/../public/assets/Icons/twoslash.png"
+              src="/assets/Icons/twoslash.png"
               alt="logo"
               width={42.6}
               height={27.6}
@@ -57,7 +57,7 @@ function Fifthpage() {
             <div className="">
               <Image
                 className="ml-5"
-                src="/../public/assets/images/profile1.png"
+                src="/assets/images/profile1.png"
                 alt="logo"
                 width={48}
                 height={48}
@@ -84,7 +84,7 @@ function Fifthpage() {
           <div className="ml-3">
             <Image
               className="ml-5"
-              src="/../public/assets/Icons/twoslash.png"
+              src="/assets/Icons/twoslash.png"
               alt="logo"
               width={42.6}
               height={27.6}
@@ -106,7 +106,7 @@ function Fifthpage() {
             <div className="">
               <Image
                 className="ml-5"
-                src="/../public/assets/images/profile2.png"
+                src="/assets/images/profile2.png"
                 alt="logo"
                 width={48}
                 height={48}
@@ -133,7 +133,7 @@ function Fifthpage() {
           <div className="ml-3">
             <Image
               className="ml-5"
-              src="/../public/assets/Icons/twoslash.png"
+              src="/assets/Icons/twoslash.png"
               alt="logo"
               width={42.6}
               height={27.6}
@@ -155,7 +155,7 @@ function Fifthpage() {
             <div className="">
               <Image
                 className="ml-5"
-                src="/../public/assets/images/profile3.png"
+                src="/assets/images/profile3.png"
                 alt="logo"
                 width={48}
                 height={48}
@@ -183,7 +183,7 @@ function Fifthpage() {
         <div>
           <Image
             className="ml-5"
-            src="/../public/assets/Icons/airbnb.png"
+            src="/assets/Icons/airbnb.png"
             alt="logo"
             width={192.25}
             height={60}
@@ -194,7 +194,7 @@ function Fifthpage() {
         <div>
           <Image
             className="ml-5"
-            src="/../public/assets/Icons/binance.png"
+            src="/assets/Icons/binance.png"
             alt="logo"
             width={192.25}
             height={38.64}
@@ -205,7 +205,7 @@ function Fifthpage() {
         <div>
           <Image
             className="ml-5"
-            src="/../public/assets/Icons/coinbase.png"
+            src="/assets/Icons/coinbase.png"
             alt="logo"
             width={189}
             height={41.25}
@@ -216,7 +216,7 @@ function Fifthpage() {
         <div>
           <Image
             className="ml-5"
-            src="/../public/assets/Icons/dropbox.png"
+            src="/assets/Icons/dropbox.png"
             alt="logo"
             width={192.25}
             height={37.86}
@@ -233,8 +233,12 @@ function Fifthpage() {
 
         <div className="ml-16">
           <p className="text-white text-[70px] md:text-[60px] font-semibold tracking-wider">
-            Let’s try our service now! <br /> <span className="text-slate-300 text-[30px] md:text-[20px] 2xl:text-[22px] font-[400] ">  Everything you need to accept card payments <br /> and grow your
-            business anywhere on the planet.</span>
+            Let’s try our service now! <br />{" "}
+            <span className="text-slate-300 text-[30px] md:text-[20px] 2xl:text-[22px] font-[400] ">
+              {" "}
+              Everything you need to accept card payments <br /> and grow your
+              business anywhere on the planet.
+            </span>
           </p>
         </div>
 

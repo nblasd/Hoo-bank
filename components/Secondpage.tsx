@@ -40,7 +40,7 @@ function Secondpage() {
           {/* image */}
           <div className="mt-8 ml-16">
             <Image
-              src="/../public/assets/Icons/star.png"
+              src="/assets/Icons/star.png"
               alt="logo"
               width={64}
               height={64}
@@ -64,7 +64,7 @@ function Secondpage() {
           {/* image */}
           <div className="mt-8 ml-16">
             <Image
-              src="/../public/assets/Icons/verified.png"
+              src="/assets/Icons/verified.png"
               alt="logo"
               width={64}
               height={64}
@@ -89,7 +89,7 @@ function Secondpage() {
           {/* image */}
           <div className="mt-8 ml-16">
             <Image
-              src="/../public/assets/Icons/transfer.png"
+              src="/assets/Icons/transfer.png"
               alt="logo"
               width={64}
               height={64}
